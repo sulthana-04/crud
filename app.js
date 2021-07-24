@@ -8,7 +8,7 @@ const authRoute = require('./routes/auth');
 app.use('/details', postsRoute);
 app.use('/api/user',authRoute);
 //connect to db
-const mongoUri="mongodb+srv://sulthana:sulthana@crud.xngbi.mongodb.net/sulthana?retryWrites=true&w=majority"
+const mongoUri=" Add mongodb url"
 mongoose.connect(
     mongoUri,
     { useNewUrlParser: true },
